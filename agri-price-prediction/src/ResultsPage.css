@@ -1,0 +1,28 @@
+.results {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5; /* Light gray background */
+  }
+  
+  h2 {
+    font-size: 2em;
+    color: #004d00; /* Dark Green */
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #333; /* Dark gray for readability */
+  }
+  
+  .chart-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Optional: Style the chart */
+  .chart-container .chartjs-render-monitor {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  

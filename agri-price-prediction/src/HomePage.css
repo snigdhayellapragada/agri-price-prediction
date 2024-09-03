@@ -1,0 +1,79 @@
+/* HomePage.css */
+
+.home {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* White background color for the whole page */
+    color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #004d00; /* Dark Green background color */
+    color: white; /* White font color */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2.5em; /* Adjust font size as needed */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Optional text shadow for better contrast */
+  }
+  
+  .problem, .solution {
+    background: #d9f2d9; /* Light Green background color for sections */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Ensures the section doesn't get too wide */
+  }
+  
+  h2 {
+    color: #004d00; /* Darker green for subheadings */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Optional text shadow for better contrast */
+  }
+  
+  .problem, .solution {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .responsive-image {
+    width: 100%;
+    max-width: 400px; /* Fixed maximum width for images */
+    height: 300px; /* Fixed height for images */
+    object-fit: cover; /* Ensures images are covered correctly within the dimensions */
+    border-radius: 8px;
+    margin-bottom: 20px; /* Space below the image */
+  }
+  
+  button {
+    background-color: #009933; /* Medium Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px; /* Adds space above the button */
+  }
+  
+  button:hover {
+    background-color: #007a00; /* Darker Green */
+  }
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+
+  
